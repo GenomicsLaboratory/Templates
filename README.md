@@ -1,4 +1,4 @@
-# Templates de documentos y artículos académicos.
+## Templates de documentos y artículos académicos.
 
 En este repositorio puedes encontrar plantillas o "templates" y algunos trucos para publicar diferentes tipos de documentos en Rmarkdwon. Los primeros resuelven problemas simples de manera simple, los directorios para profesionales requieren algo más de experiencia o un buen compañero de laboratorio que te oriente sobre como usar las plantillas más complejas.
 
