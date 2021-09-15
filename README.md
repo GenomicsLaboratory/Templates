@@ -5,7 +5,7 @@ En este repositorio puedes encontrar plantillas o "templates" y algunos trucos p
 **TRUCOS para principiantes**  
 En este directorio puedes encontar un par de plantillas con trucos para agregar múltiple autores y afiliación a tus documentos de manera simple. Pronto encontrarás también las plantillas para algunos documentos de la PUCV como memorias de grado y perfiles o proyectos de tesis y tesis de Doctorado.
 
-**RTICLES para profesionales de R**  
+**ARTICLES para profesionales de R**  
 Con base a la librería **rticle** en este directorio será posible encontrar algunas plantillas para replicar documentos de diferentes editoriales como Elsevier o Frontiers.
 
 **R-bloggers para estudiantes de doctorado**  

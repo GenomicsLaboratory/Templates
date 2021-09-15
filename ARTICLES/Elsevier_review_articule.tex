@@ -1,0 +1,140 @@
+\documentclass[]{elsarticle} %review=doublespace preprint=single 5p=2 column
+%%% Begin My package additions %%%%%%%%%%%%%%%%%%%
+\usepackage[hyphens]{url}
+
+
+
+\usepackage{lineno} % add
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage{graphicx}
+%%%%%%%%%%%%%%%% end my additions to header
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \usepackage{fontspec}
+  \ifxetex
+    \usepackage{xltxtra,xunicode}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+    \setmainfont{Verdana}
+\fi
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\bibliographystyle{elsarticle-harv}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={THE IMPACT OF CO-INFECTIONS ON SALMON AQUACULTURE - A REVIEW},
+            colorlinks=false,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+\setcounter{secnumdepth}{5}
+% Pandoc toggle for numbering sections (defaults to be off)
+
+% Pandoc citation processing
+
+% Pandoc header
+
+
+
+\begin{document}
+\begin{frontmatter}
+
+  \title{THE IMPACT OF CO-INFECTIONS ON SALMON AQUACULTURE - A REVIEW}
+    \author[]{Yessica Ortega\textsuperscript{1}}
+  
+    \author[]{Pamela Veloso\textsuperscript{1}}
+  
+    \author[]{Débora Torrealba\textsuperscript{1}}
+  
+    \author[]{Carolina Figueroa\textsuperscript{1}}
+  
+    \author[]{Paulina Bustos\textsuperscript{2}}
+  
+    \author[]{Brian Dixon\textsuperscript{3}}
+  
+    \author[]{Pablo Conejeros\textsuperscript{2}}
+  
+    \author[]{José Gallardo Matus\textsuperscript{1}}
+   \ead{jose.gallardo@pucv.cl} 
+      \address[1]{Escuela de Ciencias del Mar, Pontificia Universidad Católica de Valparaíso, Valparaíso, Chile}
+    \address[2]{Facultad de Ciencias, Universidad de Valparaíso, Valparaíso, Chile}
+    \address[3]{Faculty of Sciences, University of Waterloo, Waterloo, Canada}
+    
+  \begin{abstract}
+  Coinfection has been reported in many different aquaculture organisms, including farmed salmon and trout. However, the impact the coinfections on host resistance against pathogens is not well understood. A primary pathogen infection can alter the host's immune response to subsequent infections by other pathogens, usually suppressing or priming the immune system, but sometimes pathogens can compete with each other inside the same host reducing or totally cancel the severity the of disease and the impact on host. In this review we present a systematic review of the impact of co-infections in farmed salmon and trout. We provide laboratory and field evidence that reveals the importance of this phenomenon in global aquaculture, we analyze its main consequences on the evolution of infections in hosts as well as its impact on the immune system and genetic resistance to pathogens. Finally, we point out the importance of evaluating the efficacy of current prophylactic treatments against diseases when they attack simultaneously.
+  \end{abstract}
+  
+ \end{frontmatter}
+
+\textbf{Keywords}: Disease resistance, host--pathogen interaction, global impact, field evidence, immune response, vaccination, parasites, bacteria, virus.
+
+\hypertarget{introducciuxf3n}{%
+\section{INTRODUCCIÓN}\label{introducciuxf3n}}
+
+La acuicultura es la industria de producción alimentaria de más rápido crecimiento en todo el mundo {[}1,2{]}. Constituyendo una de las actividades sustentables y más eficientes para producir proteína animal de alta calidad {[}2{]}. La acuicultura ha ampliado la disponibilidad de pescado a regiones y países con un acceso limitado. De esta forma, ha conducido a mejorar la nutrición y la seguridad alimentaria {[}1{]}.
+
+\hypertarget{impacto-global-y-evidencias-de-campo}{%
+\section{IMPACTO GLOBAL Y EVIDENCIAS DE CAMPO}\label{impacto-global-y-evidencias-de-campo}}
+
+La coinfección de múltiples patógenos ha sido reportada en diferentes organismos acuáticos. Sin embargo, se desconoce la frecuencia a la que este fenómeno ocurre en el sistema acuático y su impacto a nivel poblacional. Así mismo, hay un profundo desconocimiento sobre como la coinfección evoluciona dentro del hospedero o cuáles serían las consecuencias de la interacción específica de múltiples patógenos sobre la salud y modulación de su sistema inmune. Comprender cada uno de estos elementos es el principal desafío para mejorar la salud de los animales acuáticos y el bienestar de los peces cultivados a nivel mundial.
+
+\hypertarget{consecuencias-de-la-coinfecciuxf3n-evoluciuxf3n-en-el-hospedero.}{%
+\section{CONSECUENCIAS DE LA COINFECCIÓN: EVOLUCIÓN EN EL HOSPEDERO.}\label{consecuencias-de-la-coinfecciuxf3n-evoluciuxf3n-en-el-hospedero.}}
+
+La evolución de la coinfección en un solo hospedero ha sido estudiada principalmente para patógenos virales, los cuales usualmente alteran las dinámicas de la infección en contraposición a una infección simple (Tabla 2). Por ejemplo, en salmones y trucha hay evidencia sólida que el virus de la necrosis hematopoyética infecciosa (IHNv) tiene menor habilidad competitiva que el IPNv cuando coinfecta {[}30 -34{]}. Ésto ocurre porque INHv es menos eficiente en completar su ciclo de crecimiento en las células infectadas simultáneamente con IPNv {[}35{]}.
+
+\hypertarget{interacciuxf3n-virus-virus}{%
+\subsection{INTERACCIÓN VIRUS-VIRUS}\label{interacciuxf3n-virus-virus}}
+
+La interferencia viral es el resultado más común de esta interacción, por la cual un virus suprime competitivamente la replicación del otro {[}36{]}. Los mecanismos descritos incluyen inhibición de la multiplicación o interferencia con el ingreso del virus; mediante la baja regulación de receptores virales o por competencia directa por un receptor común. Además, la infección causada por el primer virus podría alterar algunas funciones en las células del hospedero; que son requeridas por el segundo virus. Finalmente, el primer virus puede inducir interferones o factores antivirales que inhiben la replicación del segundo virus {[}16{]}. Dicho fenómeno ha sido reportado entre varios virus acuáticos {[}16{]}. Por otro lado, también se puede aumentar la replicación viral y en otros casos, los virus pueden coexistir, sin tener ningún efecto sobre la replicación del otro {[}36{]}.
+
+\hypertarget{ipnv-ihnv}{%
+\subsection{IPNv-IHNv}\label{ipnv-ihnv}}
+
+Las coinfecciones virales entre los géneros Aquabirnavirus (IPNv) y Novirhabdovirus (IHNv) son las más frecuentes reportadas en salmónidos {[}34{]}. Diversos estudios, tanto in vitro como in vivo han reportado que el IPNv interfiere con la replicación del IHNv {[}30-34{]}. {[}30{]} demostraron que células BF2 infectadas con IPNv y superinfectadas con IHNv muestran resistencia a la segunda infección. Así mismo, concluyeron que el interferón no estaría involucrado en esta resistencia. Por otro lado, un estudio posterior demostró que la inoculación con una mezcla de IPNv e IHNv, induce una disminución del índice de mortalidad de alrededor del 50\%, comparado con uno de los dos virus de forma aislada {[}31{]}, lo cual muestra resultados similares a lo reportado previamente por {[}37{]}.
+
+\hypertarget{references}{%
+\section{REFERENCES}\label{references}}
+
+{[}1{]} Food and Agriculture Organization. The state of world fisheries and aquaculture 2020. Sustainability in action. FAO, Rome, Italy. Available from: http://www.fao.org/stateof-fisheries-aquaculture
+
+{[}2{]} Garlock T, Asche F, Anderson J, Bjørndal T, Kumar G, Lorenzen K, Ropicki A, Smith M, Tveterås R. A Global Blue Revolution: Aquaculture Growth Across Regions, Species, and Countries, Reviews in Fisheries Science \& Aquaculture, 2019. {[}cited 2021 Aug 10{]}; Available from: DOI:\\
+http://doi.org/10.1080/23308249.2019.1678111.
+
+{[}3{]}Murray A, Peeler EA. Framework for understanding the potential for emerging diseases in aquaculture. Preventive Veterinary Medicine Journal. 2005;67(2-3):223-35.
+
+
+\end{document}
+
