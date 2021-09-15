@@ -1,0 +1,33 @@
+---
+title: 'Sexual maturation in farmed Atlantic salmon: A review '
+author: Patricia, Rivera$^1$, José A., Gallardo$^1$, Cristian, Araneda$^2$, Anti, Vasemägi$^3$
+date: $^1$Pontificia Universidad Católica de valparaíso, Valparaíso, Chile | $^2$Universidad de Chile, Santiago, Chile | $^3$Swedish University of Agricultural Sciences, Drottningholm, Sweden 
+output:
+  pdf_document:
+    latex_engine: xelatex
+  word_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Abstract**
+
+The sexual maturation of Atlantic salmon Salmo salar is a multifactorial process in which fish acquire somatic characteristics to reproduce. In salmon farming has been described a high variability in the trait age at maturation derived from wild reproductive strategies. Early maturation is a phenotype that generates serious economic repercussions on both, sea cage and on land-based aquaculture systems. In view of the challenges of this problem for the global salmon farming industry, it is essential to thoroughly understand the influencing factors of early and late maturation to find efficient alternatives for managing the phenomenon. This review briefly describes sexual maturation in S. salar, its variability in cultures, and the factors influencing the maturation age trait at the physiological, genetic and environmental levels. The control of early maturity through changes to the natural photoperiod and through the use of genetic markers are discussed.
+
+**Keywords**: sexual maturation, Salmo salar, multifactorial, reproduction, cultures, variability, photoperiod, physiological, genetic markers, GWAS.
+
+**Introduction**  
+Sexual maturation in S. salar is a complex and multifactorial process whose purpose is to acquire the somatic and behavioral conditions necessary to perform reproductive functions. In both wild and domesticated populations, there is variability in the age at maturation a characteristic known as a life history trait – which can occur at an early or late stage in both males and females. These reproductive strategies were adopted by wild congeners to increase their reproductive success, perpetuate the species, and promote population sustainability.
+
+**References**  
+[1]	McClure CA, Hammell KL, Moore M, Dohoo IR, Burnley H. Risk factors for early sexual maturation in Atlantic salmon in seawater farms in New Brunswick and Nova Scotia, Canada. Aquaculture. 2007 Nov;272(1–4):370–9. DOI:10.1016/j.aquaculture.2007.08.039  
+[2] 	Good C, Davidson J. A Review of Factors Influencing Maturation of Atlantic Salmon, Salmo salar , with Focus on Water Recirculation Aquaculture System Environments. J World Aquac Soc. 2016 Oct 9;47(5):605–32. DOI: /10.1111/jwas.12342  
+[3] 	Carillo M, Zanuy S, Bayarri M. El control ambiental de la reproduccion de los peces con especial referencia al control del ciclo sexual , de la pubertad y de la precocidad. In: Espinosa de los Monteros J, editor. La reproducción de los peces: aspectos básicos y sus aplicaciones en acuicultura  . Madrid: Pub. Cient. Tec. FOESA - CSIC; 2009. p. 175–246. Available from: Fundacion Observatorio Español de Acuicultura.  
+[4] 	Fleming IA, Reynolds JD. Salmonid Breeding System. Evol Illum - Salmon their Relat. 2004;(January 2004):264–94.     
+[5]	Webb J, Verspoor E, Aubin-Horth N, Romakkaniemi A, Amiro P. The Atlantic Salmon. In: Verspoor E, Stradmeyer L, Nielsen J, editors. The Atlantic Salmon: Genetics, Conservation and Management. Blackwell Publishing Ltd; 2007. p. 17–56. DOI: 10.1002/9780470995846.ch2  
+
+
