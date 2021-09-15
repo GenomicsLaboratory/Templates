@@ -1,6 +1,6 @@
 ## Templates de documentos y artículos académicos.
 
-En este repositorio puedes encontrar plantillas o "templates" y algunos trucos para publicar diferentes tipos de documentos en Rmarkdwon. Los primeros resuelven problemas simples de manera simple, los directorios para profesionales requieren algo más de experiencia o un buen compañero de laboratorio que te oriente sobre como usar las plantillas más complejas.
+En este repositorio puedes encontrar plantillas o "templates" y algunos trucos para publicar diferentes tipos de documentos en Rmarkdown. Los primeros resuelven problemas simples de manera simple, los directorios para profesionales requieren algo más de experiencia o un buen compañero de laboratorio que te oriente sobre como usar las plantillas más complejas.
 
 **TRUCOS para principiantes**  
 En este directorio puedes encontar un par de plantillas con trucos para agregar múltiple autores y afiliación a tus documentos de manera simple. Pronto encontrarás también las plantillas para algunos documentos de la PUCV como memorias de grado y perfiles o proyectos de tesis y tesis de Doctorado.
