@@ -25,6 +25,8 @@ knitr::opts_chunk$set(echo = FALSE)
 | 3  | A   | Hembra | 131    |  25 |
 | 4  | B   | Macho | 163    |  8 |
 
+Table:  Demonstration of simple table syntax.
+
 # Slide with foto
 
 ```{r, echo=FALSE, out.width = '80%', fig.align='center'}
@@ -37,3 +39,15 @@ knitr::include_graphics("foto.jpg")
 plot(pressure)
 ```
 
+# Slide with two columns
+
+:::: {.columns}
+::: {.column}
+contents...
+:::
+::: {.column}
+```{r, echo=FALSE, out.width = '100%', fig.align='center'}
+knitr::include_graphics("foto.jpg")
+```
+:::
+::::::::::::::
