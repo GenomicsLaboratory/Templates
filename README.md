@@ -8,6 +8,9 @@ En este directorio puedes encontar un par de plantillas con trucos para agregar 
 **ARTICLES para profesionales de R**  
 Con base a la librería **rticle** en este directorio será posible encontrar algunas plantillas para replicar documentos de diferentes editoriales como Elsevier o Frontiers.
 
+**PPT**  
+Contiene plantillas para programar presentaciones con .Rmd y exportar a formato PPT.
+
 **R-bloggers para estudiantes de doctorado**  
 Deseas elaborar un artículo académico asociado a tu tesis de doctorado. Este Blog es para tí.  
 https://www.r-bloggers.com/2019/08/rmarkdown-template-that-manages-academic-affiliations-docx-or-pdf-output/
